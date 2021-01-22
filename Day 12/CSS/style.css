@@ -1,0 +1,299 @@
+.header-top{
+    height: 100px;
+    background-color: #333;
+    position: relative;
+}
+
+.header-top:before{
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    background-color: #333;
+    content: "";
+    right: 17px;
+    bottom: -15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.header{
+    padding: 50px 0;
+    background-color: plum;
+}
+
+
+
+.header .nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border-bottom: 1px solid gray;
+}
+
+.header .nav ul li{
+    display: inline-block;
+    padding-left: 12px;
+    margin-left: -5px;
+    border-bottom: 2px;
+    padding-bottom: 5px;
+}
+
+.header .nav ul li a{
+    text-transform: uppercase;
+    color: black;
+    margin-left: 10px;
+    
+    
+    position: relative;
+}
+
+.header .nav ul li a:after{
+    position: absolute;
+    content:"";
+    
+    width: 100px;
+    height: 3px;
+    top: 10px;
+    bottom: 0;
+}
+
+.header .nav ul li:first-child{
+    padding-left: 0;
+}
+
+.header .nav ul li a:hover{
+    text-decoration: none;
+    
+    color: black;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.header .nav ul li:hover{
+    border-color: aqua;
+}
+
+.search-form{
+    margin-top: 90px;
+    
+}
+
+.search-form input{
+    border: none;
+}
+
+.search-form input[type=search]{
+    background-color: lightskyblue;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.search-form input[type=text]{
+    border-radius: 3px;
+    padding: 3px;
+    
+}
+
+.search-form input:focus{
+    outline: none;
+}
+
+.search-form input[type=submit]{
+    padding: 3px;
+    width: 60px;
+    background-color: blueviolet;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.slider{
+    padding: 20px 0;
+    background-color: lawngreen;
+    height: 400px;
+}
+
+.slider-text{
+    margin-top: 150px;
+}
+
+.slider-img{
+    margin-top: 32px;
+}
+
+ul.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+ul.carousel-indicators li.active{
+    background: blue;
+}
+
+.carousel-inner img{
+    height: 300px;
+}
+
+.service{
+    padding: 50px 0;
+}
+
+.single-service-section{
+    text-align: center;
+    
+}
+
+.single-service-section i{
+    font-size: 64px;
+    margin-bottom: 20px;
+    color: blue;
+    transition: .3s;
+}
+
+.single-service-section p{
+    font-size: 14px;
+   
+}
+
+
+.cta{
+    background-color: plum;
+    padding: 20px;
+    border-left: 16px solid blue;
+    
+}
+
+a.cta-btn{
+    width: 300px;
+    background-color: dodgerblue;
+    color: white;
+    display: block;
+    height: 65px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 2.5px;
+    font-weight: 700px;
+    padding-top: 30px;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.single-service-section i:hover{
+   
+    transform: rotate(360deg);
+    
+}
+
+
+/*footer code*/
+
+.footer{
+    background-color: #1a1a1a;
+    padding: 40px;
+}
+
+.footer h3{
+    color:white;
+    
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-family: Georgia;
+}
+
+.footer-widget-one{
+    color:gray;
+    font-size: 12px;
+    margin-top: 15px;
+    
+}
+
+.footer p{
+    color: gray;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+a.footer-read-more{
+    color: skyblue;
+    display: block;
+    text-align: right;
+    font-size: 12px;
+}
+
+a.footer-read-more i{
+    font-size: 10px;
+    margin-left: 3px;
+    
+}
+
+a.footer-read-more :hover{
+    text-decoration: none;
+}
+
+ul.quick-links{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+ul.quick-links li {
+    margin-top: 10px;
+     border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}
+
+ul.quick-links li:first-child{
+   
+   margin-top: 0;
+    
+}
+
+ul.quick-links li a:hover{
+    text-decoration: none;
+}
+
+ul.quick-links li:last-child{
+    border-bottom: none;
+}
+
+ul.quick-links li:before{
+     font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f101";
+    
+    color: red;
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+.footer h6{
+    font-size: 14px;
+    color: gray;
+    font-weight: 700;
+}
+
+.footer.span{
+    font-size: 12px;
+    color: gray;
+    margin-top: 4px;
+    display: block;
+}
+
+input, textrea{
+    background-color: gray !important;
+    border: none !important;
+}
+
+input[type=submit]{
+    background: green !important;
+}
+
