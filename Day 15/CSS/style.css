@@ -1,0 +1,50 @@
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13, .box14, .box15, .box16{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    background-color: deepskyblue;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 50px auto;
+}
+
+.box1 h2, .box2 h2, .box3 h2, .box4 h2, .box5 h2, .box6 h2, .box7 h2, .box8 h2, .box9 h2, .box10 h2, .box11 h2, .box12 h2, .box13 h2, .box14 h2, .box15 h2, .box16 h2{
+    background-color: hotpink;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.box1 p{
+    
+}
+
+.box2 p{
+    display: none;
+}
+
+.box3 p{
+    
+}
+
+.box4 p{
+    display: none;
+}
+
+.box6 p{
+    display: none;
+}
+.box7 p{
+    display: none;
+}
+.box8 p{
+    display: none;
+}
+.box9 p{
+    display: none;
+}
+
+.test{
+    color: blue;
+    background-color: goldenrod;
+}
