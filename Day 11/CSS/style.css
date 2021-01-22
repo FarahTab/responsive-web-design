@@ -1,0 +1,218 @@
+.header{
+    padding: 50px 0;
+    background-color: plum;
+}
+
+.header .nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border-bottom: 1px solid gray;
+}
+
+.header .nav ul li{
+    display: inline-block;
+    padding-left: 12px;
+    margin-left: -5px;
+    border-bottom: 2px;
+    padding-bottom: 5px;
+}
+
+.header .nav ul li a{
+    text-transform: uppercase;
+    margin-left: 10px;
+    transition: 0.5s;
+    
+    position: relative;
+}
+
+ .header .nav ul li a:after{
+    position: absolute;
+    content:"";
+    
+    width: 100px;
+    height: 3px;
+    top: 10;
+    bottom: 0;
+}
+
+.header .nav ul li:first-child{
+    padding-left: 0;
+}
+
+.header .nav ul li a:hover{
+    text-decoration: none;
+    opacity: 0.5;
+    color: black;
+}
+
+.header .nav ul li:hover{
+    border-color: aqua;
+}
+
+.search-form{
+    margin-top: 90px;
+    
+}
+
+.search-form input{
+    background: none;
+}
+
+.search-form input [type=search]{
+    background-color: lightskyblue;
+}
+
+.search-form input [type=text]{
+    border-radius: 3px;
+    padding: 3px;
+    
+}
+
+.search-form input:focus{
+    outline: none;
+}
+
+.search-form input[type=submit]{
+    padding: 3px;
+    width: 60px;
+    background-color: blueviolet;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.slider{
+    padding: 20px 0;
+    background-color: lawngreen;
+}
+
+ul .carousel-indicator li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.col-md-6 .tab{
+    float: left;
+}
+
+.service{
+    padding: 50px 0;
+}
+
+.single-service-section{
+    text-align: center;
+    
+}
+
+.single-service-section i{
+    font-size: 64px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.single-service-section p{
+    font-size: 14px;
+    line-height: 1.6px;
+}
+
+
+.cta{
+    background-color: plum;
+    padding: 20px;
+    border-left: 16px;
+    
+}
+
+a.cta-btn{
+    width: 300px;
+    background-color: dodgerblue;
+    color: white;
+    display: block;
+    height: 65px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 2.5px;
+    font-weight: 700px;
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+.single-service-section i:hover{
+    transition: 0.3s;
+    transform: rotate(360);
+    
+}
+
+.footer{
+    height: 300px;
+    padding-left: 30px;
+    background-color: lightskyblue;
+    padding:40px 70px;
+}
+
+.contact{
+    width:250px;
+    height:150px;
+    float:left;
+    padding-right: 30px;
+    margin-left: 30px;
+}
+
+.about{
+    width:250px;
+    height:150px;
+    float:left;
+    padding-right: 20px;
+    margin-left: 70px;
+}
+
+.last{
+    height:170px;
+    width:250px;
+    float:left;
+    padding-left: 100px;
+}
+
+.connect{
+    height: 100px;
+    width:250px;
+    margin-left: 70px;
+}
+
+i{
+    color:white;
+    border: 1px solid white;
+    padding: 4px;
+    width: 25px;
+    height:25px;
+    text-align: center;
+}
+
+.buttonOne{
+    width:100px;
+    height:30px;
+}
+
+.about ul a{
+    color:white;
+    text-decoration: none;
+    
+}
+
+.about ul a:hover{
+    color: fuchsia;
+}
+
+.about ul li{
+    padding: 10px 0;
+}
+.subscribe{
+    margin-left: 70px;
+}
